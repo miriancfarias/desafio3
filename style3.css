@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+       
+  }
+
+  header{
+    background-color: rgb(185, 238, 202);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+#logo{
+    width: 50px;
+    position: absolute;
+    top: 2%;
+    
+}
+#menu {
+    
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    padding: 0%;
+}
+
+li{
+ float: left; 
+ padding: 20px 20px 5px 20px;  
+}
+  #imagem_fundo {background: url(zeyn-afuang-9xp0AWvlGC4-unsplash.jpg);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+
+    
+  }
+  
+  #titulo {
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  #subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+padding-bottom: 10%;
+    font-size: 30px;
+    margin: 0;
+    
+  }
+  #botao{
+    color: white;
+    border: 3px white solid;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(63, 83, 77);
+    font-size: 20px;
+    
+    
+  }
+
+#introducao
+{background-color: rgb(133, 170, 158);
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#objgeral
+{background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  
+}
+.foto{
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+}
+.coluna1{
+  float: left;
+  padding:0 5%;
+  position: relative;
+  width: 39%;
+  font-size: 20px;
+  text-align:justify;
+  background-color: rgb(62, 85, 78);
+}
+
+
+
+#rodape{
+  background-color: rgb(185, 238, 202);
+  padding: 10px;
+  float: left;
+  background-size: cover;
+}
+li:hover {
+  background-color: azure;  
+}
+@media all and (max-width: 768px) {
+    #menu{visibility: hidden;}
+   .coluna1 {display: block;
+width: 100%;
+padding: 100%;
+margin:10px;
+float:none} 
+
+}
